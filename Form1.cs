@@ -195,9 +195,5 @@ namespace TPLaba8
             Filter();
         }
 
-        private void NumericUpDown_Enter(object sender, EventArgs e)
-        {
-            
-        }
     }
 }

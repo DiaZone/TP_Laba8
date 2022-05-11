@@ -34,6 +34,7 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.FilterTextBox = new System.Windows.Forms.TextBox();
             this.FilterButton = new System.Windows.Forms.Button();
+            this.GetDataButton = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.GreenButton2 = new System.Windows.Forms.Button();
@@ -52,7 +53,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.RadioButton1_1 = new System.Windows.Forms.RadioButton();
             this.RadioButton1_2 = new System.Windows.Forms.RadioButton();
-            this.GetDataButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.NumericUpDown)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -89,7 +89,6 @@
             0,
             0,
             0});
-            this.NumericUpDown.Enter += new System.EventHandler(this.NumericUpDown_Enter);
             // 
             // tabControl1
             // 
@@ -133,6 +132,16 @@
             this.FilterButton.Text = "Отфильтровать";
             this.FilterButton.UseVisualStyleBackColor = true;
             this.FilterButton.Click += new System.EventHandler(this.FilterButton_Click);
+            // 
+            // GetDataButton
+            // 
+            this.GetDataButton.Location = new System.Drawing.Point(6, 195);
+            this.GetDataButton.Name = "GetDataButton";
+            this.GetDataButton.Size = new System.Drawing.Size(139, 23);
+            this.GetDataButton.TabIndex = 2;
+            this.GetDataButton.Text = "Получить значения";
+            this.GetDataButton.UseVisualStyleBackColor = true;
+            this.GetDataButton.Click += new System.EventHandler(this.GetDataButton_Click);
             // 
             // tabPage2
             // 
@@ -333,16 +342,6 @@
             this.RadioButton1_2.TabIndex = 1;
             this.RadioButton1_2.Text = "Нецелые";
             this.RadioButton1_2.UseVisualStyleBackColor = true;
-            // 
-            // GetDataButton
-            // 
-            this.GetDataButton.Location = new System.Drawing.Point(6, 195);
-            this.GetDataButton.Name = "GetDataButton";
-            this.GetDataButton.Size = new System.Drawing.Size(139, 23);
-            this.GetDataButton.TabIndex = 2;
-            this.GetDataButton.Text = "Получить значения";
-            this.GetDataButton.UseVisualStyleBackColor = true;
-            this.GetDataButton.Click += new System.EventHandler(this.GetDataButton_Click);
             // 
             // Form1
             // 
